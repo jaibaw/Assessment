@@ -1,0 +1,7 @@
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/jaibaw/practiserepo1.git
+git push -u origin master
