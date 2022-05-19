@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova');
+
+/*===== Variable Define =====*/
+:root {
+    --primary-color: #EEF3F4 0% 0% no-repeat padding-box;
+    --secondary-color: #C6B9B6 0% 0% no-repeat padding-box;
+    --third-color: #F7F7F7 0% 0% no-repeat padding-box;
+    --four-color: #FFFFFF 0% 0% no-repeat padding-box;
+    --fifth-color: #354E57 0% 0% no-repeat padding-box;
+    --sixth-color: #547665 0% 0% no-repeat padding-box;
+    --seven-color: #A67744;
+    --text-color-one: Beige #F7F5E6;
+    --text-color-second: #293D45;
+    --text-color-third: #354E57;
+    --text-color-four: #2E2E22;
+    --text-color-fifth: #A67744;
+    --text-color-six: White #FFFFFF;
+}
+
+body {
+    font-family: 'Proxima', 'Nova';
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-body {
+    background: var(--primary-color);
+    padding-left: 0rem;
+    width: 85.375rem;
+    border: 0.063rem solid #EEF3F4;
+}
+
+/*header part*/
+.header.container {
+    background: rgb(221, 221, 224);
+    padding-left: 0%;
+    width: 85.375rem
+}
+
+.header .row {
+    background-color: var(--seven-color);
+    margin-left: 0rem;
+    width: 85.375rem;
+    padding-right: 10.875rem;
+    padding-left: 12.625rem;
+}
+
+.header-line-text {
+    /* Layout Properties */
+    margin-top: 0.625rem;
+    width: 61.875rem;
+    height: 1.25rem;
+    /* UI Properties */
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--beige-f7f5e6);
+    text-align: center;
+    letter-spacing: 0rem;
+    color: #F7F5E6;
+    opacity: 1;
+    background-color: var(--seven-color);
+}
+
+.header-nav-block {
+    width: 85.375rem;
+    background: rgb(221, 221, 224)
+}
+
+.header-nav {
+    /* Layout Properties */
+    padding-top: 3.625rem;
+    width: 85.375rem;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.header-span {
+    padding-right: 23.75rem;
+    font-family: 'Somatic-Rounded';
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    color: var(--text-color-second);
+}
+
+.header .navbar {
+    opacity: 1;
+}
+
+.header .navbar-nav a.nav-link {
+    /* Layout Properties */
+    padding-left: 5.375rem;
+    width: 2.688rem;
+    height: 0.75rem;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 0.75rem/0.875rem Proxima Nova;
+    letter-spacing: 0.05rem;
+    color: var(--text-color-third);
+    opacity: 1;
+}
+
+
+/*=== Banner Section ===*/
+.banner_section {
+    width: 85.375rem;
+    background: rgb(221, 221, 224);
+}
+
+.new-btn-div {
+    margin-top: 0.75rem;
+    margin-left: 0.938rem;
+}
+
+.new-btn {
+    width: 3.125rem;
+    height: 1.75rem;
+    margin-bottom: 1.313rem;
+    /* UI Properties */
+    background: var(--alabasterr-f7f7f7) 0% 0% no-repeat padding-box;
+    background: var(--third-color);
+    border: #F7F7F7;
+    opacity: 1;
+}
+
+.new-btn span {
+    /* Layout Properties */
+    width: 1.688rem;
+    height: 0.75rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 0.75rem/0.875rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: left;
+    font: normal normal 600 0.75rem/0.875rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.baner-span-content {
+    /* Layout Properties */
+    width: 34rem;
+    height: 7.25rem;
+    padding-top: 1.313rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: left;
+    font: normal normal bold 3rem/3.625rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.baner-span-subcontent {
+    /* Layout Properties */
+    width: 27.563rem;
+    height: 4.25rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: left;
+    font: normal normal normal 1rem/1.5rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+
+}
+
+.header-img {
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.shop-product-btn {
+    /* Layout Properties */
+    width: 10.813rem;
+    height: 2.188rem;
+    margin-top: 1.75rem;
+    margin-bottom: 14.438rem;
+    /* UI Properties */
+    border: 0.063rem solid var(--oxford-blue-354e57);
+    border: 0.063rem solid #354E57;
+    opacity: 1;
+}
+
+.shop-product-span {
+    /* Layout Properties */
+    width: 5.75rem;
+    height: 0.875rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+/*second page*/
+.section-div {
+    padding-bottom: 6.938rem;
+}
+
+.sol-for-all-skin {
+    width: 85.375rem;
+    height: 8.813rem;
+    border: 0.063rem solid var(--como-547665);
+    border: 0.063rem solid #547665;
+    opacity: 1;
+    background: #EEF3F4;
+    margin-bottom: 5.125rem;
+}
+
+.sol-for-all-skin-heading {
+    height: 2.125rem;
+    padding-top: 2.688rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    font: normal normal bold 1.75rem/2.125rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.sol-for-all-skin-span {
+    height: 1.188rem;
+    padding-top: 1.875rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    font: normal normal normal 1rem/1.25rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.most-popular-product {
+    padding-bottom: 1.563rem;
+}
+
+.shop-all-product {
+    padding-left: 79%;
+    padding-bottom: 1.563rem;
+}
+
+.product-menu-span {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.div-background {
+    background: white;
+    width: 15.688rem;
+    margin-left: 1.25rem;
+    height: 21.625rem;
+}
+
+.acne-cream-div {
+    height: 0.625rem;
+    padding-left: 8.688rem;
+}
+
+.all-products-img {
+    height: auto;
+    width: 10.625rem;
+    background: white;
+    margin-left: 15%;
+    margin-top: 20%;
+    margin-bottom: 25%;
+}
+
+.recommended-products-div {
+    background: #F7F7F7;
+    padding-top: 0.125rem;
+    padding-left: 0.188rem;
+}
+
+.all-product-img-div {
+    height: 15.625rem;
+}
+
+.new-offer-products-img {
+    height: auto;
+    width: 10.625rem;
+    background: white;
+    margin-left: 15%;
+}
+
+.vitiligio-div {
+    height: 0.625rem;
+    padding-left: 9.375rem;
+}
+
+.all-products-span {
+    width: 4.875rem;
+    height: 0.875rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.all-products-sub-span {
+    width: 7.438rem;
+    height: 0.938rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 0.75rem/1rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal normal 0.75rem/1rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.all-product-div {
+    background: #EEF3F4;
+    padding-top: 0.125rem;
+    padding-left: 0.188rem;
+}
+
+.all-products-price {
+    /* Layout Properties */
+    width: 2.375rem;
+    height: 0.938rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 0.75rem/0.938rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal medium 0.75rem/0.938rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.add-cart-div {
+    /* Layout Properties */
+    width: 15.688rem;
+    height: 2.188rem;
+    padding-left: 4.918rem;
+    padding-right: 5.813rem;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    /* UI Properties */
+    border: 0.063rem solid var(--oxford-blue-354e57);
+    border: 0.063rem solid #354E57;
+    opacity: 1;
+}
+
+.add-cart-span {
+    /* Layout Properties */
+    width: 3.688rem;
+    height: 0.938rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 0.75rem/0.938rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal medium 0.75rem/0.938rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+/*third page*/
+.clean-product-div {
+    padding-left: 8.563rem;
+    padding-right: 5.063rem;
+    padding-top: 13.813rem;
+    padding-bottom: 13.438rem;
+    background: #547665;
+    width: 42.688rem;
+    height: 45.688rem;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.manage-div-height-clean-prod {
+    padding-left: 0.813rem;
+}
+
+.clean-product-img {
+    width: 42.688rem;
+    height: 45.688rem;
+}
+
+.clean-product-span {
+    /* Layout Properties */
+    width: 29.063rem;
+    height: 6.813rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/3.438rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    font: normal normal bold 2.5rem/3.438rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.clean-product-sub-span {
+    width: 26.938rem;
+    height: 4.25rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--athens-gray-eef2f4);
+    text-align: left;
+    font: normal normal normal 1rem/1.5rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #EEF2F4;
+    opacity: 1;
+}
+
+.shop-more-btn {
+    width: 11rem;
+    height: 2.5rem;
+    border: 0.063rem solid var(--white-ffffff);
+    border: 0.063rem solid #FFFFFF;
+    opacity: 1;
+    background: #547665;
+}
+
+.shop-more-btn-span {
+    width: 4.313rem;
+    height: 0.875rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--beige-f7f5e6);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #F7F5E6;
+    opacity: 1;
+}
+
+/*fifth page*/
+.natural-ingredients-img {
+    width: 42.688rem;
+    height: 43.75rem;
+}
+
+.natural-ingredients-div {
+    padding-top: 15.813rem;
+    padding-left: 6.563rem;
+    background: #C6B9B6;
+    width: 42.688rem;
+    height: 43.75rem;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.natural-ingredients-span {
+    /* Layout Properties */
+    width: 30.625rem;
+    height: 3.063rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/3.75rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    font: normal normal bold 2.5rem/3.75rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.natural-ingredients-sub-span {
+    /* Layout Properties */
+    width: 27.75rem;
+    height: 4.25rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal normal 1rem/1.5rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.shop-more-btn-natural {
+    width: 11rem;
+    height: 2.5rem;
+    border: 0.063rem solid #956A53;
+    opacity: 1;
+}
+
+.shop-more-btn-natural-span {
+    left: 52.438rem;
+    width: 4.313rem;
+    height: 0.875rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+/*sixth page*/
+.best-ingredient-div {
+    padding-top: 11.938rem;
+    padding-left: 31.313rem;
+    padding-right: 31.313rem;
+}
+
+.best-ingredient-span {
+    padding-bottom: 0.75rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    font: normal normal bold 1.75rem/2.125rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.skin-care-product {
+    padding-left: 1.563rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    font: normal normal normal 1rem/1.5rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+
+}
+
+.skin-care-product-section {
+    background: #F7F7F7;
+    padding-top: 6.938rem;
+}
+
+.skin-care-product-div {
+    padding-left: 13.875rem;
+    padding-right: 14.5rem;
+    padding-top: 3.688rem;
+}
+
+.skin-care-product-img {
+    width: 16.938rem;
+    height: 16.938rem;
+    background: #F7F7F7;
+    margin-left: 1.25rem;
+}
+
+.skin-care-product-span {
+    width: 4.875rem;
+    height: 0.875rem;
+    padding-left: 30%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.skin-care-product-sub-span {
+    width: 7.438rem;
+    height: 0.938rem;
+    padding-left: 16%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 0.75rem/1rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    text-align: left;
+    font: normal normal normal 0.75rem/1rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #2E2E22;
+    opacity: 1;
+}
+
+.skin-care-product-sub-div {
+    padding-left: 3.438rem;
+}
+
+.shoping-menu-div {
+    height: 14.625rem;
+    width: 85.188rem;
+    height: 14.625rem;
+    margin-top: 11.938rem;
+    /* UI Properties */
+    background: var(--athens-gray-eef2f4) 0% 0% no-repeat padding-box;
+    background: #EEF2F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.shoping-menu-img {
+    width: 1.688rem;
+    height: 1.688rem;
+    margin-left: 15%;
+    margin-bottom: 1.383rem;
+}
+
+.shoping-menu-sub-div {
+    width: 9.125rem;
+    height: 2.5rem;
+    margin-right: 10.5rem;
+}
+
+.shoping-menu-span {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 1rem/1.188rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    font: normal normal 600 1rem/1.188rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.store-locater-div {
+    margin-top: 0.75rem;
+    padding-left: 20%;
+}
+
+.store-locater-span {
+    width: 4.25rem;
+    height: 0.938rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 0.75rem/0.938rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 0.75rem/0.938rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+}
+
+.join-sooth-fam-main-div {
+    height: 9.25rem;
+    background: white;
+}
+
+.join-sooth-family-div {
+    padding-left: 8.563rem;
+    padding-right: 4.5rem;
+    margin-top: 2.188rem;
+    margin-bottom: 2.188rem;
+}
+
+.join-sooth-family-span {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: left;
+    font: normal normal bold 2rem/2.375rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.join-sooth-family-sub-div {
+    margin-top: 3.375rem;
+    margin-bottom: 3.375rem;
+    width: 19rem;
+    height: 2.5rem;
+    margin-right: 7.125rem;
+}
+
+.join-sooth-family-sub-span {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    text-align: left;
+    font: normal normal normal 1rem/1.25rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #354E57;
+    opacity: 1;
+}
+
+.subscribe-btn-div {
+    /* Layout Properties */
+    margin-top: 3.563rem;
+    margin-bottom: 3.188rem;
+    width: 24.938rem;
+    height: 2.5rem;
+    /* UI Properties */
+    border: 0.063rem solid #956A53;
+    opacity: 1;
+}
+
+.subscribe-btn {
+    border: 0.063rem solid #956A53;
+    opacity: 1;
+    height: 2.375rem;
+    margin-left: 62%;
+    width: 9.375rem;
+    background: #956A53;
+}
+
+.subscribe-btn-span {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--beige-f7f5e6);
+    text-align: left;
+    font: normal normal bold 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #F7F5E6;
+    opacity: 1;
+}
+
+/*=== Footer Section ===*/
+
+.footer {
+    padding-left: 8.688rem;
+    padding-right: 7rem;
+    background: var(--fifth-color);
+}
+
+.footer_box {
+    padding-top: 12.875rem;
+    border-bottom: 0.063rem solid #FFFFFF;
+}
+
+.footer .footer-menu ul li a,
+.footer p,
+.footer ul li {
+    color: white;
+    list-style: none;
+    margin-bottom: 0.625rem;
+}
+
+.footer-social-icon-color {
+    color: #FFFFFF;
+}
+
+.footer-widget-title {
+    line-height: 1.875rem;
+    margin-bottom: 1.375rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 3.188rem;
+    height: 1.25rem;
+    padding-left: 25%;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 1rem/1.188rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: white;
+    text-align: left;
+    font: normal normal 600 1rem/1.188rem Proxima Nova;
+    letter-spacing: 0rem;
+    opacity: 1;
+}
+
+.mini-footer {
+    padding: 2rem 0;
+    border-top: 0.0650rem solid var(--secondary-color);
+}
+
+.mini-footer-span {
+    width: 17.625rem;
+    height: 1.25rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    font: normal normal normal 1rem/1.25rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.footer-sooth-div {
+    width: 8.938rem;
+    height: 3.375rem;
+    margin-bottom: 0.938rem;
+}
+
+.footer-sooth-span {
+    /* Layout Properties */
+    width: 8.938rem;
+    height: 3.375rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    font: normal normal bold 2rem/2.375rem Proxima Nova;
+    color: var(--white-ffffff);
+    letter-spacing: 0.169rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer-sooth-sub-div {
+    width: 22.938rem;
+    height: 2.5rem;
+    margin-bottom: 2.25rem;
+}
+
+.footer-sooth-sub-span {
+    width: 22.938rem;
+    height: 2.5rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    font: normal normal normal 1rem/1.25rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ui-list-div {
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    font: normal normal normal 0.875rem/1.063rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.mini-footer-text {
+    margin-bottom: 1.125rem;
+}
+
+.mini-footer-div {
+    width: 82%;
+}
+
+.mini-footer-sub-span {
+    padding-right: 10%;
+    width: 9.5rem;
+    height: 1.25rem;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 1rem/1.25rem var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 1rem/1.25rem Proxima Nova;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.footer-subscribe-btn-div {
+    /* Layout Properties */
+    margin-top: 3.563rem;
+    margin-bottom: 3.188rem;
+    width: 24.875rem;
+    height: 2.5rem;
+    /* UI Properties */
+    border: 0.063rem solid white;
+    opacity: 1;
+}
+
+.footer-subscribe-btn {
+    border: 0.063rem solid white;
+    opacity: 1;
+    height: 2.375rem;
+    margin-left: 40%;
+    width: 9.375rem;
+    background: #354E57 0% 0% no-repeat padding-box;
+    ;
+}
+
+/*<!--Responsive -->*/
+
+/*=== Ipad pro Media ===*/
+@media (max-width:1030px) {
+
+    /*=== Header Section ===*/
+    .header .navbar-nav a.nav-link {
+        padding: 0.8rem 1rem;
+    }
+}
+
+/*=== Ipad Media ===*/
+@media (max-width:992px) {
+
+    #navbarNav ul {
+        text-align: center;
+    }
+
+}
+
+/*=== Mobile Media ===*/
+@media (max-width:767px) {
+
+    /*=== Header Section ===*/
+    .header .navbar {
+        padding: 0.5rem 0;
+    }
+
+    .banner_content h2 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    /*=== Footer section ===*/
+    .footer-widget {
+        margin-top: 2rem;
+    }
+}
