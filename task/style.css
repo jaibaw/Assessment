@@ -901,39 +901,67 @@ body {
 
 /*<!--Responsive -->*/
 
-/*=== Ipad pro Media ===*/
-@media (max-width:1030px) {
-
-    /*=== Header Section ===*/
-    .header .navbar-nav a.nav-link {
-        padding: 0.8rem 1rem;
-    }
-}
-
-/*=== Ipad Media ===*/
-@media (max-width:992px) {
-
-    #navbarNav ul {
-        text-align: center;
-    }
-
-}
-
 /*=== Mobile Media ===*/
-@media (max-width:767px) {
+@media (max-width:812px) {
+
+    .main-body {
+        margin-left: -5%;
+    }
 
     /*=== Header Section ===*/
-    .header .navbar {
-        padding: 0.5rem 0;
+    .header-nav {
+        padding: 0 8%;
     }
 
-    .banner_content h2 {
-        font-size: 2.5rem;
-        width: 100%;
+    .header .row {
+        padding-right: 13.875rem;
     }
 
-    /*=== Footer section ===*/
-    .footer-widget {
-        margin-top: 2rem;
+    .header .navbar-collapse {
+        visibility: hidden;
+    }
+
+    .header .navbar-nav,
+    .new-btn {
+        visibility: hidden;
+    }
+
+    .natural-skin-div {
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    .natural-skin-sub-div {
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+
+    .header-img {
+        width: 50%;
+        margin-top: -161%;
+        margin-left: 23%;
+    }
+
+    .baner-span-content {
+        font-size: 110px;
+        line-height: 9.5rem;
+    }
+
+    .baner-span-subcontent {
+        font-size: 43px;
+        line-height: 4rem;
+        width: auto;
+    }
+
+    .shop-product-btn {
+        margin-top: 12.75rem;
+        margin-bottom: 4.438rem;
+        margin-left: 34rem;
+        width: 15.813rem;
+        height: 5.188rem;
+    }
+
+    .shop-product-span {
+        font-size: 2rem;
     }
 }
